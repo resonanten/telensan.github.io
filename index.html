@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telensan | Tasarım, Test, Ölçüm</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background-color: #0a1f44;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #132f61;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 25px;
+      display: inline-block;
+    }
+    nav a:hover {
+      background-color: #0a1f44;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: #0a1f44;
+      margin-bottom: 40px;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+    .service-card {
+      flex: 1 1 250px;
+      background-color: #f4f4f4;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    footer {
+      background-color: #132f61;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 15px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    button {
+      background-color: #0a1f44;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #132f61;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Telensan</h1>
+    <p>Anten Tasarımı, RF Ölçüm ve Danışmanlık Hizmetleri</p>
+  </header>
+
+  <nav>
+    <a href="#hakkimizda">Hakkımızda</a>
+    <a href="#hizmetler">Hizmetler</a>
+    <a href="#iletisim">İletişim</a>
+  </nav>
+
+  <section id="hakkimizda">
+    <h2>Hakkımızda</h2>
+    <p>
+      Telensan, endüstriyel ve akademik müşterilerine anten tasarımı, simülasyon ve RF test çözümleri sunan bir mühendislik firmasıdır. 
+      Deneyimli kadromuzla projelerinize özel çözümler üreterek kaliteli çözümler sunuyoruz.
+    </p>
+  </section>
+
+  <section id="hizmetler">
+    <h2>Hizmetlerimiz</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Anten Tasarımı</h3>
+        <p>Log-periodic, dipol, yama, patch, ve IoT antenlerinin tasarımı, optimize edilmesi ve entegrasyonu.</p>
+      </div>
+      <div class="service-card">
+        <h3>Simülasyon & Raporlama</h3>
+        <p>CST ve diğer simülasyon araçlarıyla anten ve RF sistemlerinin analizi ve detaylı raporlama.</p>
+      </div>
+      <div class="service-card">
+        <h3>RF Ölçüm & Test</h3>
+        <p>VNA ve RF test ekipmanlarıyla VSWR, Return Loss, Bandwidth ve diğer performans ölçümleri.</p>
+      </div>
+      <div class="service-card">
+        <h3>Danışmanlık</h3>
+        <p>Startup ve endüstriyel projeler için anten ve RF çözümleri danışmanlığı.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="iletisim">
+    <h2>İletişim</h2>
+    <form>
+      <input type="text" placeholder="Adınız" required>
+      <input type="email" placeholder="E-posta" required>
+      <textarea rows="5" placeholder="Mesajınız" required></textarea>
+      <button type="submit">Gönder</button>
+    </form>
+    <p style="text-align:center;">Email: info@telensan.com | LinkedIn: <a href="#" target="_blank">Telensan LinkedIn</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Telensan. Tüm hakları saklıdır.</p>
+  </footer>
+
+</body>
+</html>
+
