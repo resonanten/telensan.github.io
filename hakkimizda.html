@@ -13,10 +13,18 @@
     }
   
     header {
-      background-color: #0a1f44;
+      display: flex;
+      justify-content: center;  /* Logoyu yatayda ortalar */
+      align-items: center;
+      background-color: #ffffff;
       color: white;
-      padding: 20px 0;
+      padding: 2px 0;
       text-align: center;
+    }
+    
+    #logo {
+      width: 250px;             
+      height: auto;             
     }
   
     /* Navbar */
@@ -167,8 +175,7 @@
 <body>
 
   <header>
-    <h1>Telensan</h1>
-    <p>Anten Tasarımı, RF Ölçüm ve Danışmanlık Hizmetleri</p>
+    <img src="logoT.png" id="logo">
   </header>
 
   <nav>
