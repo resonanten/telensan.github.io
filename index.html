@@ -54,6 +54,15 @@
       border-radius: 10px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+    .service-card img {
+      width: 60px;
+      margin-bottom: 15px;
     }
     footer {
       background-color: #132f61;
@@ -88,35 +97,31 @@
   </header>
 
   <nav>
-    <a href="#hakkimizda">Hakkımızda</a>
     <a href="#hizmetler">Hizmetler</a>
+    <a href="hakkimizda.html">Hakkımızda</a>
     <a href="#iletisim">İletişim</a>
   </nav>
-
-  <section id="hakkimizda">
-    <h2>Hakkımızda</h2>
-    <p>
-      Telensan, endüstriyel ve akademik müşterilerine anten tasarımı, simülasyon ve RF test çözümleri sunan bir mühendislik firmasıdır. 
-      Deneyimli kadromuzla projelerinize özel çözümler üreterek kaliteli çözümler sunuyoruz.
-    </p>
-  </section>
 
   <section id="hizmetler">
     <h2>Hizmetlerimiz</h2>
     <div class="services">
       <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/100/000000/antenna.png" alt="Anten Tasarımı">
         <h3>Anten Tasarımı</h3>
-        <p>Log-periodic, dipol, yama, patch, ve IoT antenlerinin tasarımı, optimize edilmesi ve entegrasyonu.</p>
+        <p>Log-periodic, dipol, patch ve IoT antenlerinin tasarımı, optimizasyonu ve entegrasyonu.</p>
       </div>
       <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/100/000000/combo-chart.png" alt="Simülasyon & Raporlama">
         <h3>Simülasyon & Raporlama</h3>
         <p>CST ve diğer simülasyon araçlarıyla anten ve RF sistemlerinin analizi ve detaylı raporlama.</p>
       </div>
       <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/100/000000/wireless-signal.png" alt="RF Ölçüm & Test">
         <h3>RF Ölçüm & Test</h3>
         <p>VNA ve RF test ekipmanlarıyla VSWR, Return Loss, Bandwidth ve diğer performans ölçümleri.</p>
       </div>
       <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/100/000000/consultation.png" alt="Danışmanlık">
         <h3>Danışmanlık</h3>
         <p>Startup ve endüstriyel projeler için anten ve RF çözümleri danışmanlığı.</p>
       </div>
@@ -140,4 +145,3 @@
 
 </body>
 </html>
-
